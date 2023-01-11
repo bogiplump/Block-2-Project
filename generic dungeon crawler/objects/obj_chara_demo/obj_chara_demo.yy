@@ -3,8 +3,8 @@
   "resourceVersion": "1.0",
   "name": "obj_chara_demo",
   "spriteId": {
-    "name": "sprite_character_demo",
-    "path": "sprites/sprite_character_demo/sprite_character_demo.yy",
+    "name": "spr_witch_idle",
+    "path": "sprites/spr_witch_idle/spr_witch_idle.yy",
   },
   "solid": false,
   "visible": true,
@@ -33,7 +33,7 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Wall Trans",
-    "path": "folders/Objects/Wall Trans.yy",
+    "name": "Objects",
+    "path": "folders/Objects.yy",
   },
 }

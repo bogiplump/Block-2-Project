@@ -101,8 +101,6 @@ if (place_meeting(x + xSpeed, y, obj_wall)) {
 
 }
 
-//Move along x axis
-x += xSpeed;
 
 //Check collision with obj_wall and stop movement along y axis
 if (place_meeting(x, y + ySpeed, obj_wall)) { 
@@ -113,8 +111,19 @@ if (place_meeting(x, y + ySpeed, obj_wall)) {
 
 }
 
-//Move along y axis
-y += ySpeed;
+//If moving 
+if (xSpeed!=0 || ySpeed != 0){
+	
+	//Move along x axis
+	x += xSpeed;
+	//Move along y axis
+	y += ySpeed;
+	
+	//Change sprite
+	if !ladder {
+		sprite_index = spr_witch_running;
+	} else sprite_index = spr_witch_climbing;
+} else sprite_index = spr_witch_idle;
 
 
 //Restart game if charaHealth reaches 0
@@ -136,9 +145,7 @@ if (state == states.idle || state == states.walk) {
 		image_xscale = sign(inputX);
 		state_set(states.walk);
 	}
-	else {
-		sprite_index = sprite_character_demo;
-	}
+	
 	//Attack
 	if (mouse_check_button_pressed(mb_left)) {
 		state_set_attack(states.attack);

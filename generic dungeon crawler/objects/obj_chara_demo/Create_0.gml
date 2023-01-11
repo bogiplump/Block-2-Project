@@ -15,15 +15,15 @@ knockSpeed = 10;
 mvtLocked = 0;
 ladder = false;
 
-hx = 0
-hy = 0
-grapple = false
+//hx = 0
+//hy = 0
+//grapple = false
 
 
 // Inintialize states
 states = {
-	idle : new State (sprite_character_demo),
-	walk : new State (sprite_character_demo),
+	idle : new State (spr_witch_idle),
+	walk : new State (spr_witch_running),
 	attack : new State (spr_chara_attack)
 }
 
