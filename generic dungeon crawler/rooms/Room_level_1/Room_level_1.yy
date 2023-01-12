@@ -232,6 +232,7 @@
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_6395E9C6","properties":[],"isDnd":false,"objectId":{"name":"obj_enemy_norm","path":"objects/obj_enemy_norm/obj_enemy_norm.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":2368.0,"y":160.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_3E54E66B","properties":[],"isDnd":false,"objectId":{"name":"obj_enemy_norm","path":"objects/obj_enemy_norm/obj_enemy_norm.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":2592.0,"y":480.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_4671A6B0","properties":[],"isDnd":false,"objectId":{"name":"obj_enemy_projecti","path":"objects/obj_enemy_projecti/obj_enemy_projecti.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":352.0,"y":1376.0,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_6982DE64","properties":[],"isDnd":false,"objectId":{"name":"obj_npc_demo","path":"objects/obj_npc_demo/obj_npc_demo.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":1856.0,"y":896.0,},
       ],"visible":true,"depth":300,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritVisibility":true,"inheritSubLayers":true,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],},
     {"resourceType":"GMRTileLayer","resourceVersion":"1.1","name":"tiles_BackGround","tilesetId":{"name":"tile_backGround","path":"tilesets/tile_backGround/tile_backGround.yy",},"x":0,"y":0,"tiles":{"TileDataFormat":1,"SerialiseWidth":63,"SerialiseHeight":32,"TileCompressedData":[
 -2,-2147483648,-38,1,-4,2,-8,1,1,2,-10,1,-2,-2147483648,-21,1,1,2,-12,1,4,2,1,1,2,-3,1,1,2,-7,1,-2,2,-6,1,1,2,-3,1,-2,-2147483648,-7,1,1,2,-12,1,1,2,-11,1,-2,2,3,1,2,2,-10,1,1,2,-3,1,
@@ -446,6 +447,7 @@
     {"name":"inst_1B9BCDA8","path":"rooms/Room_level_1/Room_level_1.yy",},
     {"name":"inst_4671A6B0","path":"rooms/Room_level_1/Room_level_1.yy",},
     {"name":"inst_ED895A0","path":"rooms/Room_level_1/Room_level_1.yy",},
+    {"name":"inst_6982DE64","path":"rooms/Room_level_1/Room_level_1.yy",},
   ],
   "inheritCreationOrder": false,
   "sequenceId": null,
