@@ -1,12 +1,12 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_gate01",
+  "name": "obj_gate_final",
   "spriteId": {
-    "name": "Sprite32",
-    "path": "sprites/Sprite32/Sprite32.yy",
+    "name": "spr_finaldoor",
+    "path": "sprites/spr_finaldoor/spr_finaldoor.yy",
   },
-  "solid": true,
+  "solid": false,
   "visible": true,
   "managed": true,
   "spriteMaskId": null,

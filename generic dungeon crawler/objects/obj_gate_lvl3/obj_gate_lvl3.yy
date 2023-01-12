@@ -1,12 +1,12 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_gate01",
+  "name": "obj_gate_lvl3",
   "spriteId": {
-    "name": "Sprite32",
-    "path": "sprites/Sprite32/Sprite32.yy",
+    "name": "spr_gate_level3",
+    "path": "sprites/spr_gate_level3/spr_gate_level3.yy",
   },
-  "solid": true,
+  "solid": false,
   "visible": true,
   "managed": true,
   "spriteMaskId": null,
