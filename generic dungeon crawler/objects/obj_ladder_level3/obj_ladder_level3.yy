@@ -1,10 +1,10 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_ladder",
+  "name": "obj_ladder_level3",
   "spriteId": {
-    "name": "Sprite18",
-    "path": "sprites/Sprite18/Sprite18.yy",
+    "name": "spr_ladder_level3",
+    "path": "sprites/spr_ladder_level3/spr_ladder_level3.yy",
   },
   "solid": false,
   "visible": true,
