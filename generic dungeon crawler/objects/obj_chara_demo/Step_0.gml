@@ -72,7 +72,7 @@ if (onTheGround) {
 
 //Climbing ladder
 if(keyboard_check(ord("W")) || keyboard_check(ord("S"))){
-	if(place_meeting(x, y, obj_ladder)){ 
+	if(place_meeting(x, y, obj_ladder) || place_meeting(x, y, obj_ladder_level3)){ 
 		ladder = true;
 		}
 }
@@ -85,7 +85,7 @@ if ladder{
 	if(keyboard_check(ord("S"))){
 		ySpeed = 2;	
 	}
-	if(!place_meeting(x, y, obj_ladder)){ 
+	if(!place_meeting(x, y, obj_ladder) and !place_meeting(x, y, obj_ladder_level3)){ 
 		ladder = false;
 		}
 	if(keyboard_check_pressed(vk_space)){
