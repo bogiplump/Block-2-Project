@@ -152,3 +152,13 @@ if (state == states.idle || state == states.walk) {
 	}
 }
 
+if keyboard_check(ord("W")) {
+	
+	var insti = collision_rectangle(x-radius, y-radius, x+radius, y+radius, obj_npc_par, false,false);
+	
+	if (insti != noone) {
+		scr_create_textbox()	
+	}
+	
+}
+

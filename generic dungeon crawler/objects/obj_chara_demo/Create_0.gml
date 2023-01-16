@@ -14,7 +14,7 @@ moveY = 0;
 knockSpeed = 10;
 mvtLocked = 0;
 ladder = false;
-
+radius = 16;
 //hx = 0
 //hy = 0
 //grapple = false
