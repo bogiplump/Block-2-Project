@@ -3,8 +3,8 @@
   "resourceVersion": "1.0",
   "name": "tile_backGround",
   "spriteId": {
-    "name": "tileset_background",
-    "path": "sprites/tileset_background/tileset_background.yy",
+    "name": "bg_GreenGrass_BackGround46",
+    "path": "sprites/bg_GreenGrass_BackGround46/bg_GreenGrass_BackGround46.yy",
   },
   "tileWidth": 48,
   "tileHeight": 48,

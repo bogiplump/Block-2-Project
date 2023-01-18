@@ -6,7 +6,7 @@
     "name": "sprite_npc_demo",
     "path": "sprites/sprite_npc_demo/sprite_npc_demo.yy",
   },
-  "solid": false,
+  "solid": true,
   "visible": true,
   "managed": true,
   "spriteMaskId": null,

@@ -1,4 +1,4 @@
 /// @description 
 
-coins++;
+global.coins++;
 instance_destroy();

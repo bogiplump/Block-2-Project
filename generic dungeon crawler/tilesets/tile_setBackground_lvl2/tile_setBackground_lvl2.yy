@@ -3,8 +3,8 @@
   "resourceVersion": "1.0",
   "name": "tile_setBackground_lvl2",
   "spriteId": {
-    "name": "tileset_blueBackground",
-    "path": "sprites/tileset_blueBackground/tileset_blueBackground.yy",
+    "name": "bg_BlueGrass_BackGround",
+    "path": "sprites/bg_BlueGrass_BackGround/bg_BlueGrass_BackGround.yy",
   },
   "tileWidth": 48,
   "tileHeight": 48,
