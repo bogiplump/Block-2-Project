@@ -18,7 +18,8 @@ radius = 16;
 //hx = 0
 //hy = 0
 //grapple = false
-
+active_textbox = noone;
+global.coins = 0;
 
 // Inintialize states
 states = {

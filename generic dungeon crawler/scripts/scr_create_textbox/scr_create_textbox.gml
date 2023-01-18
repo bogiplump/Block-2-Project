@@ -8,7 +8,7 @@ function scr_create_textbox(_text, _speakers){
 			for(var i = 0; i < array_length_1d(_text); i++){
 				names[i] = _speakers[i].name;
 			}
-			
+			event_perform(ev_other, ev_user0);
 	}
 	
 	return tbox;

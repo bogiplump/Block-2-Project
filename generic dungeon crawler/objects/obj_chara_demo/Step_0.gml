@@ -152,12 +152,23 @@ if (state == states.idle || state == states.walk) {
 	}
 }
 
+//Textbox
 if keyboard_check(ord("W")) {
+	
+	if(active_textbox == noone){
 	
 	var insti = collision_rectangle(x-radius, y-radius, x+radius, y+radius, obj_npc_par, false,false);
 	
 	if (insti != noone) {
-		scr_create_textbox()	
+			with(insti){
+				var tbox = scr_create_textbox(text, speakers)	
+			}
+			active_textbox = tbox;
+		}
+	} else {
+		if !instance_exists(active_textbox){
+			active_textbox = noone;	
+		}
 	}
 	
 }
