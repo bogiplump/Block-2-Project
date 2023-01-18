@@ -1,4 +1,4 @@
-/// @description 
+/// @description UI for the items
 
 draw_sprite(UI_itemSlots, 0, 640, 140);
 
