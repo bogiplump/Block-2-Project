@@ -1,5 +1,5 @@
-/// @description Insert description here
-// You can write your code in this editor
+/// @description Create variables
 
-name = "Anonymous";
+name = "Sloth";
 text[0] = "Hello World!";
+speakers = [id];
