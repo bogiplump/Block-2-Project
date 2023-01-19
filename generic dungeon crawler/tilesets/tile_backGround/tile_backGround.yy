@@ -3,8 +3,13 @@
   "resourceVersion": "1.0",
   "name": "tile_backGround",
   "spriteId": {
+<<<<<<< Updated upstream
     "name": "bg_GreenGrass_BackGround46",
     "path": "sprites/bg_GreenGrass_BackGround46/bg_GreenGrass_BackGround46.yy",
+=======
+    "name": "bg_GreenGrass_BackGround",
+    "path": "sprites/bg_GreenGrass_BackGround/bg_GreenGrass_BackGround.yy",
+>>>>>>> Stashed changes
   },
   "tileWidth": 48,
   "tileHeight": 48,
