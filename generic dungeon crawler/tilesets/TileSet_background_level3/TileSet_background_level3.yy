@@ -3,8 +3,13 @@
   "resourceVersion": "1.0",
   "name": "TileSet_background_level3",
   "spriteId": {
+<<<<<<< Updated upstream
     "name": "bg_bossRoom43",
     "path": "sprites/bg_bossRoom43/bg_bossRoom43.yy",
+=======
+    "name": "bg_bossRoom48",
+    "path": "sprites/bg_bossRoom48/bg_bossRoom48.yy",
+>>>>>>> Stashed changes
   },
   "tileWidth": 48,
   "tileHeight": 48,

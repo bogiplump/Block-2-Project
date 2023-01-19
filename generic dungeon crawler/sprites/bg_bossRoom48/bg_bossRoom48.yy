@@ -1,7 +1,7 @@
 {
   "resourceType": "GMSprite",
   "resourceVersion": "1.0",
-  "name": "bg_GreenGrass_BackGround",
+  "name": "bg_bossRoom48",
   "bboxMode": 0,
   "collisionKind": 1,
   "type": 0,
@@ -10,16 +10,16 @@
   "edgeFiltering": false,
   "collisionTolerance": 0,
   "swfPrecision": 2.525,
-  "bbox_left": 0,
+  "bbox_left": 48,
   "bbox_right": 95,
   "bbox_top": 0,
-  "bbox_bottom": 95,
+  "bbox_bottom": 47,
   "HTile": false,
   "VTile": false,
   "For3D": false,
   "DynamicTexturePage": false,
   "width": 96,
-  "height": 96,
+  "height": 48,
   "textureGroupId": {
     "name": "Default",
     "path": "texturegroups/Default",
@@ -28,16 +28,12 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-<<<<<<< Updated upstream
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"9a15ae77-e971-4269-824e-e5c08b815f4c",},
-=======
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"b6ae27f5-e2d1-479c-8fc0-56f1d757cb51",},
->>>>>>> Stashed changes
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"8a5eeb64-e898-47fe-890f-06574acbdb69",},
   ],
   "sequence": {
     "resourceType": "GMSequence",
     "resourceVersion": "1.4",
-    "name": "bg_GreenGrass_BackGround",
+    "name": "bg_bossRoom48",
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 30.0,
@@ -49,11 +45,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-<<<<<<< Updated upstream
-            {"id":"097ef0eb-b38e-4a46-9c38-175dd41c59c3","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"9a15ae77-e971-4269-824e-e5c08b815f4c","path":"sprites/bg_GreenGrass_BackGround/bg_GreenGrass_BackGround.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-=======
-            {"id":"f4345258-c6fe-462d-bc07-3d7e6b390a25","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"b6ae27f5-e2d1-479c-8fc0-56f1d757cb51","path":"sprites/bg_GreenGrass_BackGround/bg_GreenGrass_BackGround.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
->>>>>>> Stashed changes
+            {"id":"8ac3c1cd-3176-48cc-8cff-51106f761171","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"8a5eeb64-e898-47fe-890f-06574acbdb69","path":"sprites/bg_bossRoom48/bg_bossRoom48.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
     ],
     "visibleRange": null,
@@ -72,11 +64,7 @@
     "eventStubScript": null,
   },
   "layers": [
-<<<<<<< Updated upstream
-    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"7e09b582-07b1-425e-a52c-3adf93858719","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
-=======
-    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"a68e99a7-da85-44d9-8f21-bf002692d63f","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
->>>>>>> Stashed changes
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"574f0f7c-6f33-4a72-8e3f-f4c6c003f8d9","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
   ],
   "nineSlice": null,
   "parent": {
