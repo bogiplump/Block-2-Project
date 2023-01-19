@@ -1,20 +1,16 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_water",
+  "name": "obj_flower",
   "spriteId": {
-    "name": "UI_item_water",
-    "path": "sprites/UI_item_water/UI_item_water.yy",
+    "name": "UI_item_flower",
+    "path": "sprites/UI_item_flower/UI_item_flower.yy",
   },
   "solid": false,
   "visible": true,
   "managed": true,
   "spriteMaskId": null,
-
   "persistent": false,
-
-
-
   "parentObjectId": null,
   "physicsObject": false,
   "physicsSensor": false,

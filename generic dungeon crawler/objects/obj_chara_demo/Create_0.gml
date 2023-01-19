@@ -20,6 +20,9 @@ radius = 16;
 //grapple = false
 active_textbox = noone;
 global.coins = 0;
+global.honey_is_collected = false;
+global.flower_is_collected = false;
+global.water_is_collected = false;
 
 // Inintialize states
 states = {

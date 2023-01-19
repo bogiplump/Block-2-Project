@@ -4,7 +4,7 @@
 var xDirection = keyboard_check(ord("D")) - keyboard_check(ord("A"));
 var jump = keyboard_check_pressed(vk_space);
 var onTheGround = place_meeting(x, y + 1, obj_wall);
-var onWall = place_meeting(x - 5, y, obj_platform_wall) - place_meeting(x + 5, y, obj_platform_wall);
+var onWall = place_meeting(x - 5, y, obj_wall) - place_meeting(x + 5, y, obj_wall);
 
 //Locking movement for wall jump
 mvtLocked = max(mvtLocked-1, 0);
@@ -134,11 +134,11 @@ if (charaHealth <= 0){
 
 //Attack states
 if (state == states.idle || state == states.walk) {
-	moveX = lerp(moveX, inputY * moveSpeed, 0.2);
-	moveY = lerp(moveY, inputY * moveSpeed, 0.2);
+	//moveX = lerp(moveX, inputY * moveSpeed, 0.2);
+	//moveY = lerp(moveY, inputY * moveSpeed, 0.2);
 	
-	x += moveX;
-	y += moveY;
+	//x += moveX;
+	//y += moveY;
 	
 	//Flip
 	if (inputX != 0 || inputY != 0) {
